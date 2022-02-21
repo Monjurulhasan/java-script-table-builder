@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript Table Builder</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- ===== input section ===== -->
+        <div class="table-input">
+            <h3>Rows</h3>
+            <div class="rows-input">
+                <span class="rowSub style">-</span> <!-- end .rowSub -->
+                <input type="number" class="inputRows" value="1">
+                <span class="rowAdd style">+</span> <!-- end .rowAdd -->
+            </div> <!-- end .rows-input -->
+            <div class="tableVisible">
+
+            </div> <!-- end .tableVisible -->
+            <div class="columns-input">
+                <span class="colSub style">-</span> <!-- end .colSub -->
+                <input type="number" class="inputColumns" value="1">
+                <span class="colAdd style">+</span> <!-- end .colAdd -->
+            </div> <!-- end .columns-input -->
+            <h3>Columns</h3>
+            <button id="tableBtn">Generate Table</button>
+        </div> <!-- end .table-input -->
+
+        <!-- ===== output section ===== -->
+        <div id="tableOutput">
+
+        </div> <!-- end .tableOutput -->
+
+    </div> <!-- end .container -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
